@@ -1,5 +1,41 @@
-let cars = ["audi","bmw", "lexus", "volkswagen", "porsche"];
+// let cars = ["audi","bmw", "lexus", "volkswagen", "porsche"];
 
-for (let i = 1; i < 5; i++) {
-    console.log(cars[i]);
+// for (let i = 1; i < 5; i++) {
+//     console.log(cars[i]);
+// }
+
+// let names = ["giorgi", "caterina", "Khuanito", "Chikitina", "Eke"];
+
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i].length > 3) {
+//         console.log(names[i])
+//     }
+// }
+
+// let numbers = ["12", "13", "245", "54", "0", "63", "34", "7", "8"];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 == 1) {
+//         console.log(numbers[i]);
+//     }
+// }
+
+// let user = ["name", "age", "25", "50", "surname", ["100", "500"] ];
+
+// console.log(user[5][1]);
+
+
+// var person = {
+//     firstname: "john",
+//     lastname: "doe",
+//     age: 50,
+//     eyecolor: "blue"
+//   };
+
+//   console.log(person.eyecolor);
+
+let persons = ["john", "doe", "50", "blue",];
+
+for (let i = 0; i < persons.length; i++) {
+    console.log(persons[i]);
 }
