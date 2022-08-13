@@ -1,92 +1,98 @@
-let Autos = ["audi","bmw", "lexus", "volkswagen", "porsche"];
+// let Autos = ["audi","bmw", "lexus", "volkswagen", "porsche"];
 
-for (let i = 1; i < 5; i++) {
-    console.log(Autos[i]);
+// for (let i = 1; i < 5; i++) {
+//     console.log(Autos[i]);
+// }
+
+// let names = ["giorgi", "caterina", "Khuanito", "Chikitina", "Eke"];
+
+// for (let i = 0; i < names.length; i++) {
+//     if (names[i].length > 3) {
+//         console.log(names[i])
+//     }
+// }
+
+// let numbers = ["12", "13", "245", "54", "0", "63", "34", "7", "8"];
+
+// for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 == 1) {
+//         console.log(numbers[i]);
+//     }
+// }
+
+// let user = ["name", "age", "25", "50", "surname", ["100", "500"] ];
+
+// console.log(user[5][1]);
+
+
+// var person = {
+//     firstname: "john",
+//     lastname: "doe",
+//     age: 50,
+//     eyecolor: "blue"
+//   };
+
+//   console.log(person.eyecolor);
+
+// let persons = ["john", "doe", "50", "blue",];
+
+// for (let i = 0; i < persons.length; i++) {
+//     console.log(persons[i]);
+// }
+
+// let i = 0;
+// while (I < persons.length) {
+//     console.log(perosns.length[i]);
+//     i++;
+// }
+
+// let array = ["5", "25", "89", "120", "36"];
+
+
+// array.push("javascript", "python");
+// array.unshift("Html", "css");
+// console.log(array);
+
+// console.log(array.length);
+// array.shift();
+// array.pop();
+// console.log(array);
+
+// let fruits = ["Orange", "bananas", "pear"];
+
+// console.log(fruits.length);
+
+// fruits.push("apple", "anannas");
+// console.log(fruits);
+// fruits.unshift("watermelon");
+// console.log(fruits);
+// console.log(fruits.length);
+
+// fruits.splice(2, 0, "Mango");
+// console.log(fruits);
+// fruits.shift();
+// fruits.pop();
+// console.log(fruits);
+// console.log(fruits.length);
+
+
+// let cars = ["audi","bmw", "lexus", "volkswagen", "ferrary", "porsche", "bently"];
+
+// i = 2;
+// while (i < 6) {
+//     console.log(cars.length[i]);
+//     i++;
+// }
+
+
+
+let names = ["audi","bmw", "lexus", "volkswagen", "Nika"];
+
+if (names.length === 5 && names[names.length - 1] === "Nika") {
+console.log("მასივის რაოდენობა: 5 და ბოლო ელემენტია ნიკა");
+} else {  
+    console.log(error);
 }
-
-let names = ["giorgi", "caterina", "Khuanito", "Chikitina", "Eke"];
-
-for (let i = 0; i < names.length; i++) {
-    if (names[i].length > 3) {
-        console.log(names[i])
-    }
-}
-
-let numbers = ["12", "13", "245", "54", "0", "63", "34", "7", "8"];
-
-for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 == 1) {
-        console.log(numbers[i]);
-    }
-}
-
-let user = ["name", "age", "25", "50", "surname", ["100", "500"] ];
-
-console.log(user[5][1]);
-
-
-var person = {
-    firstname: "john",
-    lastname: "doe",
-    age: 50,
-    eyecolor: "blue"
-  };
-
-  console.log(person.eyecolor);
-
-let persons = ["john", "doe", "50", "blue",];
-
-for (let i = 0; i < persons.length; i++) {
-    console.log(persons[i]);
-}
-
-let i = 0;
-while (I < persons.length) {
-    console.log(perosns.length[i]);
-    i++;
-}
-
-let array = ["5", "25", "89", "120", "36"];
-
-
-array.push("javascript", "python");
-array.unshift("Html", "css");
-console.log(array);
-
-console.log(array.length);
-array.shift();
-array.pop();
-console.log(array);
-
-let fruits = ["Orange", "bananas", "pear"];
-
-console.log(fruits.length);
-
-fruits.push("apple", "anannas");
-console.log(fruits);
-fruits.unshift("watermelon");
-console.log(fruits);
-console.log(fruits.length);
-
-fruits.splice(2, 0, "Mango");
-console.log(fruits);
-fruits.shift();
-fruits.pop();
-console.log(fruits);
-console.log(fruits.length);
-
-
-let cars = ["audi","bmw", "lexus", "volkswagen", "ferrary", "porsche", "bently"];
-
-i = 2;
-while (i < 6) {
-    console.log(cars.length[i]);
-    i++;
-}
-
-
-
-
 
 
 
